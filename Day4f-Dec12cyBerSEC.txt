@@ -270,6 +270,9 @@ task6: How to Make CISCOLINUX/ CUCM intentionally hackable to Learn
 the Basics for Firewalls.
 before: nmap -v 10.m.100.8,  C> nmap 
 @Cucm: = fa 0/0/ or CSR1000v = gi3
+
+
+
 config t
 int Gi 3
  no shut
@@ -574,7 +577,7 @@ route add default gw 192.168.103.11
 ping 192.168.103.11
 
 STEP1: define INSIDE AND OUTSIDE:
-STEP2: create Access-list to permit IP of Inside:
+STEP2: csreate Access-list to permit IP of Inside:
 STEP3: create a NAT pool with overload
 @vpnPH:
 config t
